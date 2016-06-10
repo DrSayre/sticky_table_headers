@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["DrSayre2002@yahoo.com"]
   spec.summary       = 'StickyTableHeaders'
   spec.description   = 'jQuery plugin for StickyTableHeaders'
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = 'https://github.com/DrSayre/sticky_table_headers'
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
