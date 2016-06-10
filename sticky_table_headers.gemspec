@@ -10,16 +10,11 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Caleb Sayre"]
   spec.email         = ["DrSayre2002@yahoo.com"]
   spec.summary       = 'StickyTableHeaders'
-  spec.description   = 'https://github.com/DrSayre/sticky_table_headers'
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.description   = 'Ruby Gem for StickyTableHeaders'
+  spec.homepage      = 'https://github.com/DrSayre/sticky_table_headers'
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
-  else
-    raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
-  end
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
