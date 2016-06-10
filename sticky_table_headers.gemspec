@@ -6,11 +6,12 @@ require 'sticky_table_headers/version'
 Gem::Specification.new do |spec|
   spec.name          = "sticky_table_headers"
   spec.version       = StickyTableHeaders::VERSION
+  spec.licenses      = ['MIT']
   spec.authors       = ["Caleb Sayre"]
   spec.email         = ["DrSayre2002@yahoo.com"]
   spec.summary       = 'StickyTableHeaders'
-  spec.description   = 'jQuery plugin for StickyTableHeaders'
-  spec.homepage      = 'https://github.com/DrSayre/sticky_table_headers'
+  spec.description   = 'https://github.com/DrSayre/sticky_table_headers'
+  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.

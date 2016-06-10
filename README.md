@@ -22,7 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add this line to your asset pipeline:
+
+```ruby
+//= require sticky_table_headers
+```
 
 ## Development
 
